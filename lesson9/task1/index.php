@@ -1,5 +1,6 @@
 <?php
 
+// Сортировка пузырьком
 $arr = [];
 
 for ($i = 1; $i < 10000; $i++) {
@@ -28,6 +29,8 @@ $end_time = microtime(true);
 
 $result_time = $end_time - $start_time;
 echo "Сортировка пузырьком: $result_time </br>";
+
+// Шейкерная сортировка
 
 $arr = [];
 
